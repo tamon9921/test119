@@ -4,9 +4,9 @@
 	},
 	"project": {
 		"shadows": true,
-		"shadowType": 0,
+		"shadowType": 1,
 		"vr": false,
-		"toneMapping": 1,
+		"toneMapping": 0,
 		"toneMappingExposure": 1
 	},
 	"camera": {
@@ -16,18 +16,18 @@
 			"generator": "Object3D.toJSON"
 		},
 		"object": {
-			"uuid": "6d5745eb-3e60-45bb-9417-14fa2caaa157",
+			"uuid": "4ea10c2d-42e2-42e7-9dfa-a5a551996deb",
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [0.4925479702150116,0,-0.87028529634659,0,-0.3137689559131347,0.9327453982957729,-0.17758114838924052,0,0.8117546053717546,0.3605357429687937,0.45942185265797536,0,6.207397366022919,3.4559848634361945,3.16597905600164,1],
+			"matrix": [0.11695383382309266,0,-0.9931373524110753,0,-0.2721981730594357,0.9617071577386171,-0.03205459931766397,0,0.9551073004313105,0.2740790812052436,0.11247533911264096,0,8.649523640761435,2.48208079998172,1.0185851413952336,1],
 			"up": [0,1,0],
 			"fov": 50,
 			"zoom": 1,
 			"near": 0.01,
 			"far": 1000,
 			"focus": 10,
-			"aspect": 1.0844907407407407,
+			"aspect": 1.4081632653061225,
 			"filmGauge": 35,
 			"filmOffset": 0
 		}
@@ -40,7 +40,7 @@
 		},
 		"geometries": [
 			{
-				"uuid": "160774e6-c251-4782-9377-42ceccc3c5aa",
+				"uuid": "eda65e77-818b-4972-a342-6b57c7d8ae46",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -74,7 +74,7 @@
 				}
 			},
 			{
-				"uuid": "5f12334b-27ca-46f5-a023-f16ebe437e44",
+				"uuid": "908361d9-71d7-4027-a599-0e2dae93f6dd",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -108,7 +108,7 @@
 				}
 			},
 			{
-				"uuid": "16acec21-532c-444c-a5b9-6b9fe4b647a1",
+				"uuid": "a55adda3-dda0-4a10-bcbe-93cd44e9af7f",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -142,7 +142,7 @@
 				}
 			},
 			{
-				"uuid": "a46ca56c-aa4d-4418-a81d-c7c0a558b28a",
+				"uuid": "20994f22-b704-4906-a9c3-35d134f30b4d",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -176,7 +176,7 @@
 				}
 			},
 			{
-				"uuid": "cbfcac2f-aaab-4470-a454-072d2429e1cf",
+				"uuid": "95a7ff56-a7f8-4048-9128-6e162aca4d4b",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -211,7 +211,7 @@
 			}],
 		"materials": [
 			{
-				"uuid": "8e29353c-85dd-468c-ab80-4fa627d11abe",
+				"uuid": "082dadae-438f-4c9c-ab7b-c3e4f1303600",
 				"type": "MeshStandardMaterial",
 				"name": "マテリアル",
 				"color": 6732378,
@@ -223,7 +223,7 @@
 				"blendColor": 0
 			},
 			{
-				"uuid": "f2320266-a850-491c-a964-fa6e5282485b",
+				"uuid": "b4228436-92c2-4c18-87e6-ff4a3d77b4cd",
 				"type": "MeshStandardMaterial",
 				"name": "マテリアル.001",
 				"color": 14136946,
@@ -235,7 +235,7 @@
 				"blendColor": 0
 			},
 			{
-				"uuid": "d3081678-bd2e-4284-af9a-aba4b9813efd",
+				"uuid": "5179a93b-b1c6-4d31-a38a-a03b28e5b59e",
 				"type": "MeshStandardMaterial",
 				"name": "マテリアル.004",
 				"color": 13684944,
@@ -247,7 +247,7 @@
 				"blendColor": 0
 			},
 			{
-				"uuid": "b27948e6-0938-4b5f-aecc-57eea57d1663",
+				"uuid": "197c5708-c87f-495b-8059-dbf38999616c",
 				"type": "MeshStandardMaterial",
 				"name": "マテリアル.002",
 				"color": 9936804,
@@ -259,7 +259,7 @@
 				"blendColor": 0
 			},
 			{
-				"uuid": "98c1abfc-d2dc-4069-9f3c-c8e56a3fa639",
+				"uuid": "a8fcf906-02ac-4fbb-b279-7c04993b4d73",
 				"type": "MeshStandardMaterial",
 				"name": "マテリアル.003",
 				"color": 0,
@@ -277,10 +277,9 @@
 			"layers": 1,
 			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 			"up": [0,1,0],
-			"background": 12829873,
 			"children": [
 				{
-					"uuid": "4d3f62c6-7369-4c28-8cd8-bce88adc2085",
+					"uuid": "39c608a9-c577-420b-8ad7-f9276e472a9b",
 					"type": "Group",
 					"name": "room03.glb",
 					"castShadow": true,
@@ -290,7 +289,7 @@
 					"up": [0,1,0],
 					"children": [
 						{
-							"uuid": "edb45fab-b4c0-44c8-a3f3-7e91ca83c8bc",
+							"uuid": "8043b5b7-a22b-4415-8e3e-c8c5271463c4",
 							"type": "Group",
 							"name": "円",
 							"castShadow": true,
@@ -303,7 +302,7 @@
 							"up": [0,1,0],
 							"children": [
 								{
-									"uuid": "c5d720cb-2122-490a-9234-1888e3374173",
+									"uuid": "a733be7b-8827-488a-96d2-cdba3f0fea90",
 									"type": "Mesh",
 									"name": "円_1",
 									"castShadow": true,
@@ -311,11 +310,11 @@
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 									"up": [0,1,0],
-									"geometry": "160774e6-c251-4782-9377-42ceccc3c5aa",
-									"material": "8e29353c-85dd-468c-ab80-4fa627d11abe"
+									"geometry": "eda65e77-818b-4972-a342-6b57c7d8ae46",
+									"material": "082dadae-438f-4c9c-ab7b-c3e4f1303600"
 								},
 								{
-									"uuid": "e8b2006c-6edf-4965-b1fe-3a31f5845a2e",
+									"uuid": "004e62e4-b2b2-46bd-a500-cc0ba15fc167",
 									"type": "Mesh",
 									"name": "円_2",
 									"castShadow": true,
@@ -323,11 +322,11 @@
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 									"up": [0,1,0],
-									"geometry": "5f12334b-27ca-46f5-a023-f16ebe437e44",
-									"material": "f2320266-a850-491c-a964-fa6e5282485b"
+									"geometry": "908361d9-71d7-4027-a599-0e2dae93f6dd",
+									"material": "b4228436-92c2-4c18-87e6-ff4a3d77b4cd"
 								},
 								{
-									"uuid": "6f75b88d-b30a-448f-a50f-9cb139d18ba3",
+									"uuid": "1cef4009-6676-40f7-bcc8-64c0cb70cc52",
 									"type": "Mesh",
 									"name": "円_3",
 									"castShadow": true,
@@ -335,11 +334,11 @@
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 									"up": [0,1,0],
-									"geometry": "16acec21-532c-444c-a5b9-6b9fe4b647a1",
-									"material": "d3081678-bd2e-4284-af9a-aba4b9813efd"
+									"geometry": "a55adda3-dda0-4a10-bcbe-93cd44e9af7f",
+									"material": "5179a93b-b1c6-4d31-a38a-a03b28e5b59e"
 								},
 								{
-									"uuid": "10ff3bd1-7a5d-4e91-84ab-39825c0d02bd",
+									"uuid": "fc64d5db-b16e-461d-aaa8-8ab3315405b7",
 									"type": "Mesh",
 									"name": "円_4",
 									"castShadow": true,
@@ -347,11 +346,11 @@
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 									"up": [0,1,0],
-									"geometry": "a46ca56c-aa4d-4418-a81d-c7c0a558b28a",
-									"material": "b27948e6-0938-4b5f-aecc-57eea57d1663"
+									"geometry": "20994f22-b704-4906-a9c3-35d134f30b4d",
+									"material": "197c5708-c87f-495b-8059-dbf38999616c"
 								},
 								{
-									"uuid": "91945fc4-5e52-4088-8051-f2cc6f77dafc",
+									"uuid": "cfa76878-21b4-4304-a5d9-74eeabaa92bc",
 									"type": "Mesh",
 									"name": "円_5",
 									"castShadow": true,
@@ -359,12 +358,12 @@
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 									"up": [0,1,0],
-									"geometry": "cbfcac2f-aaab-4470-a454-072d2429e1cf",
-									"material": "98c1abfc-d2dc-4069-9f3c-c8e56a3fa639"
+									"geometry": "95a7ff56-a7f8-4048-9128-6e162aca4d4b",
+									"material": "a8fcf906-02ac-4fbb-b279-7c04993b4d73"
 								}]
 						},
 						{
-							"uuid": "3bba78e2-330d-4d34-8ab1-0933c9b54ae2",
+							"uuid": "09169d59-cd4f-48f5-a1fc-63bdc02abc28",
 							"type": "SpotLight",
 							"name": "エリア",
 							"castShadow": true,
@@ -372,36 +371,34 @@
 								"name": "エリア"
 							},
 							"layers": 1,
-							"matrix": [0.6691305654365022,2.7768002024254183e-9,0.7431448872798189,0,0.07767982573782999,0.9945218905891914,-0.06994322287651757,0,-0.739073858398349,0.10452851360304921,0.6654649947056152,0,-28.520000457763672,5.5,26.659997940063477,1],
+							"matrix": [0.6691305655069257,1.0206075984342533e-9,0.7431448871892472,0,0.07767982398163742,0.9945218905898039,-0.06994322481348014,0,-0.7390738584889205,0.10452851166608657,0.6654649948786067,0,-28.520000457763672,5.5,26.659997940063477,1],
 							"up": [0,1,0],
 							"children": [
 								{
-									"uuid": "3f7b914e-2208-4fbd-a119-4b03535c1d94",
+									"uuid": "1216149c-037b-4b35-812b-b649b5492ca6",
 									"type": "Object3D",
-									"castShadow": true,
-									"receiveShadow": true,
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,-1,1],
 									"up": [0,1,0]
 								}],
 							"color": 16777215,
-							"intensity": 7,
+							"intensity": 700,
 							"distance": 0,
-							"angle": 1.025,
-							"decay": 2.04,
-							"penumbra": 1,
+							"angle": 0.9651669859886169,
+							"decay": 2,
+							"penumbra": 0.9214211702346802,
 							"shadow": {
-								"normalBias": 0.78,
-								"radius": 2,
+								"bias": 0.00079,
+								"radius": 2.08,
 								"camera": {
-									"uuid": "ddaa1af8-4ece-494b-aca6-80a5a197643e",
+									"uuid": "f20dae16-1e62-46bf-85d6-42eb4c75d5f2",
 									"type": "PerspectiveCamera",
 									"layers": 1,
 									"up": [0,1,0],
-									"fov": 117.45634800181875,
+									"fov": 110.59998964502003,
 									"zoom": 1,
 									"near": 0.5,
-									"far": 0.02,
+									"far": 500,
 									"focus": 10,
 									"aspect": 1,
 									"filmGauge": 35,
@@ -410,7 +407,7 @@
 							}
 						},
 						{
-							"uuid": "5aa19b36-5f31-48b8-8204-edcf1d6a2c78",
+							"uuid": "2f08020e-51cc-4dd5-bf95-fe1b462aa8ed",
 							"type": "PointLight",
 							"name": "ポイント",
 							"castShadow": true,
@@ -418,24 +415,23 @@
 								"name": "ポイント"
 							},
 							"layers": 1,
-							"matrix": [1,0,0,0,0,-1.3435885655173873e-7,-1.0000001343588565,0,0,1.0000001343588565,-1.3435885655173873e-7,0,0,1.56,0,1],
+							"matrix": [1,0,0,0,0,-1.3435885648505064e-7,-1.0000001343588565,0,0,1.0000001343588565,-1.3435885648505064e-7,0,0,1.7999999523162842,0,1],
 							"up": [0,1,0],
 							"color": 16777215,
 							"intensity": 0.8,
 							"distance": 0,
-							"decay": 2.18,
+							"decay": 2,
 							"shadow": {
-								"normalBias": 0.78,
-								"radius": 2.02,
+								"radius": 9.86,
 								"camera": {
-									"uuid": "3d970329-d4ce-4c3b-a182-eb024de2b41e",
+									"uuid": "ec9cd080-8752-4329-8895-004de1a08d14",
 									"type": "PerspectiveCamera",
 									"layers": 1,
 									"up": [0,0,-1],
 									"fov": 90,
 									"zoom": 1,
 									"near": 0.5,
-									"far": 0.02,
+									"far": 500,
 									"focus": 10,
 									"aspect": 1,
 									"filmGauge": 35,
@@ -444,7 +440,7 @@
 							}
 						},
 						{
-							"uuid": "59c369b1-6164-4b9e-845a-a00dd7ea15ff",
+							"uuid": "cecd50be-ab7b-4d7f-8f1d-8c468d6a6e7f",
 							"type": "PointLight",
 							"name": "ポイント001",
 							"castShadow": true,
@@ -452,24 +448,24 @@
 								"name": "ポイント.001"
 							},
 							"layers": 1,
-							"matrix": [1,0,0,0,0,-1.3435885655173873e-7,-1.0000001343588565,0,0,1.0000001343588565,-1.3435885655173873e-7,0,1.2,2.19,0,1],
+							"matrix": [1,0,0,0,0,-1.3435885648505064e-7,-1.0000001343588565,0,0,1.0000001343588565,-1.3435885648505064e-7,0,1.0800000429153442,2.190000057220459,0,1],
 							"up": [0,1,0],
 							"color": 16777215,
-							"intensity": 0.05,
+							"intensity": 0.01,
 							"distance": 0,
-							"decay": 0.14,
+							"decay": 3.5,
 							"shadow": {
-								"normalBias": 0.78,
-								"radius": 2,
+								"bias": 0.00004,
+								"radius": 0.9,
 								"camera": {
-									"uuid": "163dff79-f773-417d-8955-048004ff797f",
+									"uuid": "3be61c24-f2e1-41a2-b698-66dd3faf99df",
 									"type": "PerspectiveCamera",
 									"layers": 1,
 									"up": [0,0,-1],
 									"fov": 90,
 									"zoom": 1,
 									"near": 0.5,
-									"far": 0.02,
+									"far": 500,
 									"focus": 10,
 									"aspect": 1,
 									"filmGauge": 35,
@@ -477,13 +473,7 @@
 								}
 							}
 						}]
-				}],
-			"fog": {
-				"type": "FogExp2",
-				"name": "",
-				"color": 3226702,
-				"density": 0.02
-			}
+				}]
 		}
 	},
 	"scripts": {},
